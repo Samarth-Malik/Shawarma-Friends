@@ -1,2 +1,0 @@
-# Shawarma-Friends
-Website

@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\samar\\\\Downloads\" -File | Where-Object { $_.Extension -match '\\\\.\\(png|jpg|jpeg|webp|avif\\)$' } | Sort-Object LastWriteTime -Descending | Select-Object -First 25 Name, Length, LastWriteTime | Format-Table -AutoSize)"
+    ]
+  }
+}
